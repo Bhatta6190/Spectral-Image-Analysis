@@ -42,7 +42,7 @@ This regression is applied on a band-by-band basis, enabling the transformation 
 
 <p align="left">
   <img src="scene_location.png" alt="RIT Campus" width="75%" height="75%"/>
-  <p style="text-align: center;"><strong>Figure:</strong> Scene Location: Above Center of Imaging Science Building, at RIT</p>
+  <p style="text-align: center;"><strong>Figure:</strong> Data location- near Center of Imaging Science (CIS) Building, at RIT</p>
 </p>
 
 ---
