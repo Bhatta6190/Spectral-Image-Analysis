@@ -4,19 +4,19 @@
 ## Background: Empirical Line Method (ELM)
 The ground-leaving spectral signatures in hyperspectral imagery (HSI) are altered by atmospheric effects like absorption and scattering. Atmospheric compensation aims to minimize these effects, enabling accurate ground reflectance retrieval.
 
-The **Empirical Line Method (ELM)** compensates for these atmospheric effects using known reflectance and radiance pairs (calibration panels). The relationship between sensor-reaching radiance $\( L \)$ and ground reflectance \( \rho \) is modeled as:
+The **Empirical Line Method (ELM)** compensates for these atmospheric effects using known reflectance and radiance pairs (calibration panels). The relationship between sensor-reaching radiance $\ L \$ and ground reflectance $\ rho \$ is modeled as:
 
-$\[ L = a \cdot \rho + b \]$
+$\ L = a \cdot \rho + b \$
 
 Where:
-- $\( a \)$: Gain (direct solar and downwelling radiance)
-- $\( b \)$: Offset (path radiance due to atmospheric scattering)
+- $\ a \$: Gain (direct solar and downwelling radiance)
+- $\ b \$: Offset (path radiance due to atmospheric scattering)
 
 By assuming Lambertian targets and space-invariant illumination, the gain and offset are derived through linear regression using dark and white panel data:
 
-$\[
+$\
 a = \frac{L_2 - L_1}{\rho_2 - \rho_1}, \quad b = L_1 - a \cdot \rho_1
-\]$
+\$
 
 This regression is applied on a band-by-band basis, enabling the transformation of radiance data to reflectance data for the entire scene.
 
@@ -27,11 +27,11 @@ This regression is applied on a band-by-band basis, enabling the transformation 
 ### Files Provided
 1. **HSI Radiance Image**:
    - `2017-08-01_14-28-56_000011__061158-066258_radiance_fwd_proj_subset.bin`
-   - Dimensions: \( 340 \times 234 \times 372 \) (40 cm GSD)
+   - Dimensions: $\ 340 \times 234 \times 372 \$ (40 cm GSD)
 
 2. **High-Resolution RGB Image**:
    - `2017-08-01_14-33-23_000160_FT010007_subset.jp2`
-   - Dimensions: \( 2555 \times 1906 \times 3 \) (3 cm GSD)
+   - Dimensions: $\ 2555 \times 1906 \times 3 \$ (3 cm GSD)
 
 3. **Calibration Panel Spectra**:
    - `Spectra_8_01_2017.xlsx`
@@ -57,14 +57,14 @@ This regression is applied on a band-by-band basis, enabling the transformation 
    - Extract regions of interest (ROI) for calibration panels.
 
 2. **Compute Gain and Bias**:
-   - Calculate \( a \) and \( b \) for each wavelength:
-     \[
+   - Calculate $\ a \$ and $\ b \$ for each wavelength:
+     $\
      a = \frac{L_2 - L_1}{\rho_2 - \rho_1}, \quad b = L_1 - a \cdot \rho_1
-     \]
+     \$
    - Apply the regression model to convert radiance to reflectance.
 
 3. **Generate Reflectance Data Cube**:
-   - Use \( a \) and \( b \) to transform the radiance data cube to reflectance.
+   - Use $\ a \$ and $\ b \$ to transform the radiance data cube to reflectance.
 
 4. **Validation and Analysis**:
    - Plot gain and bias curves.
