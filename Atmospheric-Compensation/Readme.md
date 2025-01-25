@@ -60,7 +60,7 @@ This regression is applied on a band-by-band basis, enabling the transformation 
    - Apply the regression model to convert radiance to reflectance.
 
 3. **Generate Reflectance Data Cube**:
-   - Use `$ a $` and $\ b \$ to transform the radiance data cube to reflectance.
+   - Use `\ a \` and $\ b \$ to transform the radiance data cube to reflectance.
 
 4. **Validation and Analysis**:
    - Plot gain and bias curves.
