@@ -30,11 +30,5 @@ The primary objective is to clean the noisy image by using these advanced dimens
 - **Noise Reduction**: Fewer bands need to be eliminated in the NAPC space for effective noise reduction.
 - **Variance & Covariance**: NAPC shows better decorrelation compared to PCA, demonstrating its effectiveness in handling noise.
 
-Special thanks to **Dr. Emmett Ientilucci**(https://www.rit.edu/science/directory/ejipci-emmett-ientilucci) for providing resources and data for this work.
-The original work can be referred from: 
-   - @inproceedings{Ientilucci2003ComparisonAU,
-   title={Comparison and Usage of Principal Component Analysis ( PCA ) and Noise Adjusted Principal Component ( NAPC ) Analysis or Maximum Noise Fraction ( MNF )},
-   author={Emmett Ientilucci},
-   year={2003},
-   url={https://api.semanticscholar.org/CorpusID:53370643}
-   }
+Special thanks to **Dr. Emmett Ientilucci**(https://www.rit.edu/science/directory/ejipci-emmett-ientilucci) for providing resources and data for this work.              
+The original work by **Dr. Ientilucci** can be referred at: https://api.semanticscholar.org/CorpusID:53370643
