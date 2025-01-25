@@ -4,19 +4,19 @@
 ## Background: Empirical Line Method (ELM)
 The ground-leaving spectral signatures in hyperspectral imagery (HSI) are altered by atmospheric effects like absorption and scattering. Atmospheric compensation aims to minimize these effects, enabling accurate ground reflectance retrieval.
 
-The **Empirical Line Method (ELM)** compensates for these atmospheric effects using known reflectance and radiance pairs (calibration panels). The relationship between sensor-reaching radiance \( L \) and ground reflectance \( \rho \) is modeled as:
+The **Empirical Line Method (ELM)** compensates for these atmospheric effects using known reflectance and radiance pairs (calibration panels). The relationship between sensor-reaching radiance $\( L \)$ and ground reflectance \( \rho \) is modeled as:
 
-\[ L = a \cdot \rho + b \]
+$\[ L = a \cdot \rho + b \]$
 
 Where:
-- \( a \): Gain (direct solar and downwelling radiance)
-- \( b \): Offset (path radiance due to atmospheric scattering)
+- $\( a \)$: Gain (direct solar and downwelling radiance)
+- $\( b \)$: Offset (path radiance due to atmospheric scattering)
 
 By assuming Lambertian targets and space-invariant illumination, the gain and offset are derived through linear regression using dark and white panel data:
 
-\[
+$\[
 a = \frac{L_2 - L_1}{\rho_2 - \rho_1}, \quad b = L_1 - a \cdot \rho_1
-\]
+\]$
 
 This regression is applied on a band-by-band basis, enabling the transformation of radiance data to reflectance data for the entire scene.
 
