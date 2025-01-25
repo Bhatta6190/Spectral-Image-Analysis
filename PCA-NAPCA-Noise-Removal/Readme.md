@@ -30,5 +30,6 @@ The primary objective is to clean the noisy image by using these advanced dimens
 - **Noise Reduction**: Fewer bands need to be eliminated in the NAPC space for effective noise reduction.
 - **Variance & Covariance**: NAPC shows better decorrelation compared to PCA, demonstrating its effectiveness in handling noise.
 
-Special thanks to **Dr. Emmett Ientilucci**(https://www.rit.edu/science/directory/ejipci-emmett-ientilucci) for providing resources and data for this work.              
+## Acknowledgement
+Special thanks to **Dr. Emmett Ientilucci** (https://www.rit.edu/science/directory/ejipci-emmett-ientilucci) for providing resources and data for this work.              
 The original work by **Dr. Ientilucci** can be referred at: https://api.semanticscholar.org/CorpusID:53370643
