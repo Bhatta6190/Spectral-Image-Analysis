@@ -25,11 +25,11 @@ This regression is applied on a band-by-band basis, enabling the transformation 
 ### Files Provided
 1. **HSI Radiance Image**:
    - `2017-08-01_14-28-56_000011__061158-066258_radiance_fwd_proj_subset.bin`
-   - Dimensions: $\ 340 \times 234 \times 372 \$ (40 cm GSD)
+   - Dimensions: `340 x 234 x 372` (40 cm GSD)
 
 2. **High-Resolution RGB Image**:
    - `2017-08-01_14-33-23_000160_FT010007_subset.jp2`
-   - Dimensions: $\ 2555 \times 1906 \times 3 \$ (3 cm GSD)
+   - Dimensions: `2555 x 1906 x 3` (3 cm GSD)
 
 3. **Calibration Panel Spectra**:
    - `Spectra_8_01_2017.xlsx`
@@ -55,7 +55,7 @@ This regression is applied on a band-by-band basis, enabling the transformation 
    - Extract regions of interest (ROI) for calibration panels.
 
 2. **Compute Gain and Bias**:
-   - Calculate $\ a \$ and $\ b \$ for each wavelength:
+   - Calculate $$ a $$ and $$ b $$ for each wavelength:
     $\ a = \frac{L_2 - L_1}{\rho_2 - \rho_1}, \quad b = L_1 - a \cdot \rho_1 \$
    - Apply the regression model to convert radiance to reflectance.
 
