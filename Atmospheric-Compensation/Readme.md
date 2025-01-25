@@ -4,7 +4,7 @@
 ## Background: Empirical Line Method (ELM)
 The ground-leaving spectral signatures in hyperspectral imagery (HSI) are altered by atmospheric effects like absorption and scattering. Atmospheric compensation aims to minimize these effects, enabling accurate ground reflectance retrieval.
 
-The **Empirical Line Method (ELM)** compensates for these atmospheric effects using known reflectance and radiance pairs (calibration panels). The relationship between sensor-reaching radiance $\ L \$ and ground reflectance $\ rho \$ is modeled as:
+The **Empirical Line Method (ELM)** compensates for these atmospheric effects using known reflectance and radiance pairs (calibration panels). The relationship between sensor-reaching radiance `L` and ground reflectance `ρ` is modeled as:
 
 $\ L = a \cdot \rho + b \$
 
@@ -36,9 +36,9 @@ This regression is applied on a band-by-band basis, enabling the transformation 
    - Includes dark, white, red, and blue panel reflectances.
 
 ### Scene Description
-- **Calibration Panels**: Dark and white panels
-- **Colored Panels**: Red and blue panels
 - **Scene Location**: RIT campus (Around CIS building)
+- **Calibration Panels**: Dark and white panels (on top of CIS building to the right)
+- **Colored Panels**: Red and blue panels (multiple: Grass lawn as well as top of CIS building)
 
 <p align="left">
   <img src="scene_location.png" alt="RIT Campus" width="75%" height="75%"/>
@@ -47,7 +47,7 @@ This regression is applied on a band-by-band basis, enabling the transformation 
 
 ---
 
-## Lab Workflow
+## Workflow
 
 ### Objectives
 1. Perform atmospheric compensation using ELM.
@@ -76,6 +76,8 @@ This regression is applied on a band-by-band basis, enabling the transformation 
    - Use dark point selection (e.g., lowest valid radiance per wavelength).
    - Analyze the impact on the compensated data.
 
+The jupyter notebook `Atm_compensation_with_elm.ipynb` contains all the code to run these tasks step-by-step. 
+
 ---
 
 ## Results
@@ -89,7 +91,7 @@ This regression is applied on a band-by-band basis, enabling the transformation 
 - **Vegetation Spectra**: Reflectance shows accurate spectral shapes.
 - **Alternative Dark Point Selection**: Reflectance is consistent, with minor shifts due to bias differences.
 
-### General Assumptions
+### General Assumptions for ELM
 1. Calibration panels are Lambertian (BRDF is angle-independent).
 2. Illumination is space-invariant.
 3. Atmosphere is homogeneous across the scene.
@@ -103,4 +105,7 @@ This regression is applied on a band-by-band basis, enabling the transformation 
 
 ---
 
-This README provides an overview of the Empirical Line Method (ELM) implementation for atmospheric compensation of hyperspectral imagery collected at RIT. The process generates a new HSI cube in reflectance units, ensuring accurate ground reflectance retrieval.
+## Acknowledgement
+Special thanks to **Dr. Emmett Ientilucci** (https://www.rit.edu/science/directory/ejipci-emmett-ientilucci) for providing resources and data for this work.
+
+**Summary:** This README provides an overview of the Empirical Line Method (ELM) implementation for atmospheric compensation of hyperspectral imagery collected at RIT. The process generates a new HSI cube in reflectance units, ensuring accurate ground reflectance retrieval.
