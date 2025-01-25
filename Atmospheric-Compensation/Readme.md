@@ -38,7 +38,12 @@ This regression is applied on a band-by-band basis, enabling the transformation 
 ### Scene Description
 - **Calibration Panels**: Dark and white panels
 - **Colored Panels**: Red and blue panels
-- **Vegetation and Other Objects**: Around the RIT campus
+- **Scene Location**: RIT campus (Around CIS building)
+
+<p align="left">
+  <img src="scene_location.png" alt="RIT Campus" width="75%" height="75%"/>
+  <p style="text-align: center;"><strong>Figure:</strong> Scene Location: Above Center of Imaging Science Building, at RIT</p>
+</p>
 
 ---
 
