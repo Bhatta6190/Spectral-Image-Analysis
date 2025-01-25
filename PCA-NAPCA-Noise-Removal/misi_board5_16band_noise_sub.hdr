@@ -1,0 +1,32 @@
+ENVI
+description = {
+  File Resize Result, x resize factor: 1.000000, y resize factor: 1.000000.
+  [Tue Feb 25 17:13:05 2003]}
+samples = 50
+lines   = 1000
+bands   = 16
+header offset = 0
+file type = ENVI Standard
+data type = 2
+interleave = bip
+sensor type = Unknown
+byte order = 0
+x start = 51
+y start = 617
+band names = {
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 1:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 2:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 3:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 4:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 5:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 6:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 7:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 8:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 9:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 10:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 11:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 12:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 13:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 14:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 15:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img), 
+ Resize (Resize ((16x100x2522):VCAL (Board 5): Band 16:C4-01_l1.hdf (Data Set #24)):misi_board5_16band_noise.img)}
