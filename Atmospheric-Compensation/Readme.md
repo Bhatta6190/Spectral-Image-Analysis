@@ -55,7 +55,7 @@ This regression is applied on a band-by-band basis, enabling the transformation 
    - Extract regions of interest (ROI) for calibration panels.
 
 2. **Compute Gain and Bias**:
-   - Calculate $$ a $$ and $$ b $$ for each wavelength:
+   - Calculate $\ a \$ and $\ b \$ for each wavelength:
     $\ a = \frac{L_2 - L_1}{\rho_2 - \rho_1}, \quad b = L_1 - a \cdot \rho_1 \$
    - Apply the regression model to convert radiance to reflectance.
 
