@@ -22,3 +22,4 @@ The `python` code includes:
 2. Fit polynomial models and calculate residuals.  
 3. Compare predicted wavelengths with factory-calibrated values
 
+Special thanks to **Dr. Anthony Vodacek**(https://www.rit.edu/science/directory/axvpci-anthony-vodacek) for providing resources and data for this work.
