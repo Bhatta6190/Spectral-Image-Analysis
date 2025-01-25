@@ -80,7 +80,7 @@ The jupyter notebook `Atm_compensation_with_elm.ipynb` contains all the code to 
 
 ---
 
-## Results
+## Summarized Results
 
 ### Gain and Bias Analysis
 - **Gain**: Exhibits solar spectrum features, indicating atmospheric homogeneity.
