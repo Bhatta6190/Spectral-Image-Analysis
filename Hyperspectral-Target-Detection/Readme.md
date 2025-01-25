@@ -1,16 +1,17 @@
-# Target Detection Using Hyperspectral Imagery (HSI)
+# Target Detection In Hyperspectral Imagery (HSI)
 
 ## Objective
-This work focuses on detecting red panel targets in HSI data, performing analysis in both spectral reflectance space and reduced-dimensional space (PCA space). The outcomes include:
+This work focuses on detecting targets`(Red panel)` in HSI image, performing analysis in both spectral reflectance space and reduced-dimensional space (PCA space). The outcomes include:
 
-- Working with real HSI data.
-- Implementing various target detection algorithms.
-- Generating and using a truth mask for cross-checking detections.
-- Analyzing detection performance via histograms and ROC curves.
+- Work on real HSI data.
+- Implementation of various target detection algorithms.
+- Generation and usage of a truth mask for cross-checking detections.
+- Analysis of detection performance via histograms and ROC curves.
 
+The `python` code for achieving all these tasks is included in the included jupyter notebook `target_detection.ipynb` file. 
 ---
 
-## Data Provided
+## Data Included
 1. **HSI Data**:
    - `001_0729-1919_rad_GeoRef_THOR_ELM_smoothed 146x84.img`
    - `001_0729-1919_rad_GeoRef_THOR_ELM_smoothed 146x84.hdr`
@@ -21,7 +22,7 @@ This work focuses on detecting red panel targets in HSI data, performing analysi
 
 ---
 
-## Steps
+## Steps 
 
 ### Truth Mask Generation
 1. Use ENVI ROI tool to create truth mask.
@@ -41,6 +42,8 @@ Detection is performed in two spaces:
 - **Matched Filter (MF)**
 - **Adaptive Coherence Estimator (ACE)**
 - **Constrained Energy Minimization (CEM)** 
+
+For details on these detection methods please refer to the reference mentioned at the end section.
 
 #### Key Tasks:
 1. **Spectral Space**:
@@ -69,9 +72,9 @@ Detection is performed in two spaces:
 
 
 ### Analysis:
-- Compare detector performance in spectral and reduced space.
-- Assess the impact of the truth mask on detection results.
-- Evaluate the effectiveness of dimensionality reduction in target localization.
+- Comparison of detector performance in spectral and reduced space.
+- Assessment of the impact of the truth mask on detection results.
+- Evaluation of the effectiveness of dimensionality reduction in target localization.
 
 ---
 
