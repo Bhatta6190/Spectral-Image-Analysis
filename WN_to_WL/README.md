@@ -8,3 +8,4 @@ The total energy must be preserved while converting to the different domains as 
 where right left side expression shows the integration in wavenumber domain and right hand side is in wavelngth domain. This example shows the conversion of radiances in WN domain to WL domain. The problem sheet, data are uploaded and also the steps for the conversion are shown in the uploaded jupyter notebook file.
 
 
+Special thanks to **Dr. Emmett Ientilucci**(https://www.rit.edu/science/directory/ejipci-emmett-ientilucci) for providing resources and data for this work.
