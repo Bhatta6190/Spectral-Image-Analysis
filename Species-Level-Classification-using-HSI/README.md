@@ -24,7 +24,7 @@ Tree species classification is crucial for ecological studies and sustainable fo
 ### Result Overview
 ![Classification Result Sample](Results/Classification_Result.png)
 *Figure: Classification results: From left to right—Raw data with training samples, classified image using raw data, MNF-reduced
-data, and classified image using MNF-reduced data. (Classes- Blue: Gran (Eucalyptus grandis), Red: GraNit (Eucalyptus grandis x nitens), cyan: BS (Bare Soil), Teal: Dun (Eucalyptus dunnii), Pastel-Red: Amea (Acacia mearnsii))*
+data (first 3 bands), and classified image using MNF-reduced data. (Classes- Blue: Gran (Eucalyptus grandis), Red: GraNit (Eucalyptus grandis x nitens), cyan: BS (Bare Soil), Teal: Dun (Eucalyptus dunnii), Pastel-Red: Amea (Acacia mearnsii))*
 
 This work has been done on [ENVI](https://www.nv5geospatialsoftware.com/Products/ENVI) Remote Sensing Software for Image Processing and Analysis. All the description and results are included in documentation file `Documentation.pdf`
 
