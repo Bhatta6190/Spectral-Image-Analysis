@@ -23,6 +23,10 @@ Tree species classification is crucial for ecological studies and sustainable fo
 ```
 ### Result Overview
 ![Classification Result Sample](Results/Classification_combined.png)
+*Figure: Classification results: From left to right—Raw data with training samples, classified image using raw data, MNF-reduced
+data, and classified image using MNF-reduced data. (Classes- Red: GraNit, Blue: Gran, cyan: BS, Teal: Dun, Pastel-Red: Amea)*
+
+This work has been done on [ENVI](https://www.nv5geospatialsoftware.com/Products/ENVI) Remote Sensing Software for Image Processing and Analysis. All the description and results are included in documentation file `Documentation.pdf`
 
 ### Acknowledgments
 Special thanks to [Dr. Jan van Aardt](https://www.rit.edu/directory/jvacis-jan-van-aardt) for providing guidance and resources for this work.
