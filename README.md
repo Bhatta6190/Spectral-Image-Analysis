@@ -15,7 +15,7 @@ This repository hosts tools and resources for analyzing remotely sensed spectral
 
 - **`Hyperspectral-Target-Detection`**: Tools for detecting targets`(Red panel)` in `Hyperspectral` image and performing analysis in both spectral reflectance space and reduced-dimensional space (PCA space).
 
-- **`Species-Level-Classification-using-HSI `**: A report on using Hyperspectral Imagery to classify forest species using Maximum Likelihood Estimation (MLE) Algorithm.
+- **`Species-Level-Classification-using-HSI `**: A report on using `Hyperspectral Imagery` to classify forest species using `Maximum Likelihood Estimation (MLE)` Algorithm.
 
 
 We welcome suggestions and contributions to improve the repository.  
