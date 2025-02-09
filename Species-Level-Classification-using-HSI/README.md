@@ -21,6 +21,8 @@ Tree species classification is crucial for ecological studies and sustainable fo
 3. Train classifiers (MLE, SAM) on both raw and MNF-transformed bands
 4. Evaluate classification accuracy using standard metrics
 ```
+### Result Overview
+![Classification Result Sample](Results/Classification_combined.png)
 
 ### Acknowledgments
 Special thanks to [Dr. Jan van Aardt](https://www.rit.edu/directory/jvacis-jan-van-aardt) for providing guidance and resources for this work.
