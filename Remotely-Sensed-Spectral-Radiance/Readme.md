@@ -2,7 +2,7 @@
 # Spectral Image Analysis
 
 ## Overview
-In this work we analyzed spectral radiance components and their applications in ground-leaving radiance, camouflage detection, and gas plume identification. Tasks involved deriving equations, performing numerical computations, and plotting results. All the tasks are done step-by-step using and available in `rem-sen-spec-rad.ipynb` python notebook code.
+In this work we analyzed spectral radiance components and their applications in determining ground-leaving radiance, camouflage detection, and gas plume identification. Tasks involved deriving equations, performing numerical computations, and plotting results. All the tasks are done step-by-step using and available in `rem-sen-spec-rad.ipynb` python notebook code.
 
 ---
 
