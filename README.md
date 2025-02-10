@@ -1,6 +1,6 @@
 # Spectral-Image-Analysis
 
-This repository hosts tools and resources for analyzing remotely sensed spectral data including `Multispectral` and `Hyperspectral` data, covering multiple tasks- from simple `wavenumber-to-wavelength` domain conversion to complex tasks such as `Noise Reduction` and `Target Detection`. Each directory focuses on a specific task of spectral data processing and analysis and includes all necessary resources.
+This repository hosts tools and resources for analyzing remotely sensed spectral data including `Multispectral` and `Hyperspectral` data, covering multiple tasks- from simple `wavenumber-to-wavelength` domain conversion to complex tasks such as `Noise Reduction`, `Target Detection`, `Classification` and so on. Each directory focuses on a specific task of spectral data processing and analysis and includes all necessary resources.
 
 ### Current Resources:
 - **`Wavenumber-to-Wavelength domain conversion`**: Tools for conversion from "Spectral Radiance in Wavenumber [W/cm2 sr cm-1]" to "Spectral Radiance in Wavelength domain [W/m2 sr μm]"
