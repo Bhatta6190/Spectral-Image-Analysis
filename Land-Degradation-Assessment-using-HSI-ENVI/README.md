@@ -34,8 +34,8 @@ This project analyzes land degradation in a savanna environment using hyperspect
 <p align="center">
   <img src="./Conserved-Landuse7-Results/lanuse7_RGB_image.jpg" alt="Conserved Area" width="45%"/>
   <img src="./Degraded-Landuse2-Results/landuse2_RGB_image.jpg" alt="Communal Area" width="46%"/>
-  <img src="./Degraded-Landuse2-Results/landuse2_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="45%"/>
-  <img src="./Conserved-Landuse7-Results/landuse_7_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="46%"/>
+  <img src="./Conserved-Landuse7-Results/landuse_7_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="45%"/>
+  <img src="./Degraded-Landuse2-Results/landuse2_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="46%"/>
 </p>
 <p align="center"><strong>Figure:</strong> </p>
 
