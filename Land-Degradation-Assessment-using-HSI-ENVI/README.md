@@ -42,6 +42,8 @@ This project analyzes land degradation in a savanna environment using hyperspect
 ### Comment 
 A simple Spectral Mapping (SAM) algorithm is used to classify the imagery into 4 classes- PV (photosynthetic vegetation), NPV (Non-photosynthetic vegetation), BS (Bare Soil) and Shadow areas (S). The classification results shows that the PV within the reserve were found to be distributed proportionally across the whole area while the PV outside the reserve are accumulated to smaller portion and most of the area is does not contain vegetation. Similarly the bare soil cover (BS) within reserved area is very less while it is comparatively higher in the communal areas. The NPV cover is relatively higher in conserved area compared to the communal area. Such widespread decrease in NPV and increase in Bare soil outside the reserve indicates a change in key landscape and soil properties such as loss of organic matter, which is an indicator of land degradation in such areas. Hence, NPV and bare soil cover can be the good indicators for land degradation in communal areas. *For mor information refer to report `Report_Land_degradation.pdf`*
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This work has been done on [ENVI](https://www.nv5geospatialsoftware.com/Products/ENVI) Remote Sensing Software for Image Processing and Analysis. All the description and results are included in documentation file `Documentation.pdf`
+
+### Acknowledgments
+Special thanks to [Dr. Jan van Aardt](https://www.rit.edu/directory/jvacis-jan-van-aardt) for providing guidance and resources for this work.
 
