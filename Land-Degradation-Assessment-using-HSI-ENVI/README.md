@@ -37,7 +37,7 @@ This project analyzes land degradation in a savanna environment using hyperspect
   <img src="./Conserved-Landuse7-Results/landuse_7_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="45%"/>
   <img src="./Degraded-Landuse2-Results/landuse2_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="46%"/>
 </p>
-<p align="center"><strong>Figure:</strong> </p>
+<p align="center"><strong>Figure:</strong>Top Left) RGB Image of Conserved Area, (Top Right) RGB Image of Degraded Area, (Bottom Left) SAM Classified Conserved Area, (Bottom Right) SAM Classified Degraded Area<br>Classes: Green = PV, Red = NPV, Brown = Bare Soil, White = Shadow, and Black = Unclassified.</p>
 
 
 ## License
