@@ -15,9 +15,14 @@ This repository hosts tools and resources for analyzing remotely sensed spectral
 
 - **`Hyperspectral-Target-Detection`**: Tools for detecting targets`(Red panel)` in `Hyperspectral` image and performing analysis in both spectral reflectance space and reduced-dimensional space (PCA space).
 
-- **`Species-Level-Classification-using-HSI-ENVI`**: A report on using `Hyperspectral Imagery` to classify forest species using `Maximum Likelihood Estimation (MLE)` Algorithm. The `ENVI` keyword label at the end if name indicates that the work has been done using **ENVI Application** and only analysis reports and results are available.
+- **`Species-Level-Classification-using-HSI-ENVI`**: A report on using `Hyperspectral Imagery` to classify forest species using `Maximum Likelihood Estimation (MLE)` algorithm. 
 
-We welcome suggestions and contributions to improve the repository.  
+- **`Land-Degradation-Assessment-using-HSI-ENVI`**: A report on using `Hyperspectral Imagery` to assess the status of land degradation using `Pixel Unmixing` and `Spectral Angle Mapper (SAM)` classification algorithm. 
+
+
+**Note:** The `ENVI` keyword label at the end of directory name indicates that the work has been done using **ENVI Application** and only analysis reports and results are available.
+
+We welcome suggestions to improve the repository.  
 
 **Contact**: [rb1005@rit.edu](mailto:rb1005@rit.edu) for potential collaborations.
 
