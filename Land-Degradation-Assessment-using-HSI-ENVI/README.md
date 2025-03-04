@@ -32,10 +32,10 @@ This project analyzes land degradation in a savanna environment using hyperspect
 
 ### Classified Map
 <p align="center">
-  <img src="./Conserved-Landuse7-Results/lanuse7_RGB_image.jpg" alt="Conserved Area" width="45%"/>
-  <img src="./Degraded-Landuse2-Results/landuse2_RGB_image.jpg" alt="Communal Area" width="46%"/>
-  <img src="./Conserved-Landuse7-Results/landuse_7_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="45%"/>
-  <img src="./Degraded-Landuse2-Results/landuse2_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="46%"/>
+  <img src="./Landuse7-Results/lanuse7_RGB_image.jpg" alt="Conserved Area" width="45%"/>
+  <img src="./Landuse2-Results/landuse2_RGB_image.jpg" alt="Communal Area" width="46%"/>
+  <img src="./Landuse7-Results/landuse_7_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="45%"/>
+  <img src="./Landuse2-Results/landuse2_sam_classification_result.jpg" alt="Conserved Area Classification Result" width="46%"/>
 </p>
 <p align="center"><strong>Figure:</strong>Top Left) RGB Image of Degraded Area, (Top Right) RGB Image of Conserved Area , (Bottom Left) SAM Classified Degraded Area  , (Bottom Right) SAM Classified Conserved Area <br>Classes: Green = PV, Red = NPV, Brown = Bare Soil, White = Shadow, and Black = Unclassified.</p>
 
