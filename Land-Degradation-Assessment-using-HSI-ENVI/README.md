@@ -26,8 +26,8 @@ This project analyzes land degradation in a savanna environment using hyperspect
 
 ## Results
 - **Key Findings:**
-  - Degraded areas exhibit higher bare soil cover and lower NPV compared to conserved regions.
-  - PV distribution is more uniform in the conserved region, while it is clustered along water sources in degraded lands.
+  - Degraded areas exhibit higher NPV compared to conserved regions.
+  - PV distribution is more dense in the conserved region, while it is sparsely distributed in degraded lands.
   - Classification achieved high accuracy, with PV having the best producer’s accuracy (90%-100%) and NPV facing the most misclassification issues.
 
 ### Classified Map
