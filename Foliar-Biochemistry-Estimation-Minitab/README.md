@@ -7,9 +7,9 @@ This study explores the use of **hyperspectral data** for estimating **Nitrogen 
 - **Continuum-Removed Spectra:** Highlights absorption features by normalizing reflectance curves.  
 
 <p align="center">
-  <img src="./Results/sample1_spectrum.png" alt="Raw Spectrum Sample" width="30%"/>
-  <img src="./Results/Sample1_firstderivative.png" alt="First Derivative Spectrum" width="30%"/>
-  <img src="./Results/Sample1_continuumremoved.png" alt="Continuum Removed Spectrum" width="30%"/>
+  <img src="./Results/sample1_spectrum.png" alt="Raw Spectrum Sample" width="32%"/>
+  <img src="./Results/Sample1_firstderivative.png" alt="First Derivative Spectrum" width="28%"/>
+  <img src="./Results/Sample1_continuumremoved.png" alt="Continuum Removed Spectrum" width="32%"/>
 </p>
 
 *Figure: Examples of the three spectral preprocessing techniques used in this study.*  
