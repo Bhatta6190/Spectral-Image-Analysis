@@ -11,7 +11,7 @@ This study explores the use of **hyperspectral data** for estimating **Nitrogen 
   <img src="./Results/Sample1_firstderivative.png" alt="First Derivative Spectrum" width="28%"/>
   <img src="./Results/Sample1_continuumremoved.png" alt="Continuum Removed Spectrum" width="30%"/>
 </p>
-<p align="center"><strong>Figure:</strong> Example of the three spectral preprocessing techniques used in this study.</p>
+<p align="center"><strong>Figure:</strong> Example of the three spectral preprocessing techniques used in this study: *Raw spectrum (left), First derivative Spectrum (middle) and Continuum removed Spectrum (right)*.</p>
 
 The objective is to determine the most effective spectral transformation and key predictive wavelengths for foliar nutrient estimation.
 
@@ -35,7 +35,9 @@ The most informative spectral bands were identified in:
 <p align="center">
   <img src="./Results/regression_outcome.png" alt="Regression Performance Comparison" width="98%"/>
 </p>
-<p align="center"><strong>Figure:</strong> Performance comparison of regression models across different spectral transformations.</p>
+<p align="center"><strong>Figure:</strong> Linear regression results for N and K using different spectral preprocessed data. S values are in absolute units and
+R2 values are in percentage units. *The highlighted light green cells show best performance metric values obtained for each
+spectral preprocessing method*</p>
 
 ## Conclusion  
 This study highlights the **importance of spectral preprocessing** for improving foliar nutrient estimation. The **first derivative transformation** emerged as the most effective, enhancing subtle spectral variations critical for **N and K prediction**. The findings reinforce the **potential of hyperspectral data** for precision agriculture and non-invasive nutrient monitoring. Future work will focus on field-based hyperspectral imaging and advanced modeling techniques.
