@@ -40,7 +40,7 @@ The most informative spectral bands were identified in:
 ## Conclusion  
 This study highlights the **importance of spectral preprocessing** for improving foliar nutrient estimation. The **first derivative transformation** emerged as the most effective, enhancing subtle spectral variations critical for **N and K prediction**. The findings reinforce the **potential of hyperspectral data** for precision agriculture and non-invasive nutrient monitoring. Future work will focus on field-based hyperspectral imaging and advanced modeling techniques.
   
-This work has been done on [Minitab](https://www.minitab.com/en-us/) statistical software. All the description and results are included in documentation file `Foliar_Biochemistry.pdf`
+This work has been done on [Minitab](https://www.minitab.com/en-us/) statistical software. For more detailed description refer to the included documentation file- `Foliar_Biochemistry.pdf`
 
 ### Acknowledgments
 Special thanks to [Dr. Jan van Aardt](https://www.rit.edu/directory/jvacis-jan-van-aardt) for providing guidance and resources for this work.
