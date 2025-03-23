@@ -13,7 +13,7 @@ This study explores the use of **hyperspectral data** for estimating **Nitrogen 
 </p>
 <p align="center"><strong>Figure:</strong> Example of the three spectral preprocessing techniques used in this study: Raw spectrum (left), First derivative Spectrum (middle) and Continuum removed Spectrum (right).</p>
 
-The objective is to determine the most effective spectral transformation and key predictive wavelengths for foliar nutrient estimation.
+*The objective is to determine the most effective spectral transformation and key predictive wavelengths for foliar nutrient estimation.*
 
 ## Methodology  
 We analyzed **92 crop samples** with hyperspectral data ranging from **350 nm to 2500 nm** at **1 nm resolution**. To improve predictive accuracy, we applied **stepwise linear regression** with varying **alpha-to-enter** thresholds (**0.005, 0.01, and 0.05**). The model was evaluated using:  
