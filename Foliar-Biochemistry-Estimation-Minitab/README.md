@@ -9,7 +9,7 @@ This study explores the use of **hyperspectral data** for estimating **Nitrogen 
 <p align="center">
   <img src="./Results/sample1_spectrum.png" alt="Raw Spectrum Sample" width="34%"/>
   <img src="./Results/Sample1_firstderivative.png" alt="First Derivative Spectrum" width="29%"/>
-  <img src="./Results/Sample1_continuumremoved.png" alt="Continuum Removed Spectrum" width="30%"/>
+  <img src="./Results/Sample1_continuumremoved.png" alt="Continuum Removed Spectrum" width="30.5%"/>
 </p>
 <p align="center"><strong>Figure:</strong> Example of the three spectral preprocessing techniques used in this study: Raw spectrum (left), First derivative Spectrum (middle) and Continuum removed Spectrum (right).</p>
 
